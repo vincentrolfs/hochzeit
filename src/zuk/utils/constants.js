@@ -75,6 +75,4 @@ export const LOAD_ON_STARTUP = [
 	IMAGEFILE_ASSET_MARKER,
 	SOUNDFILE_BUMP,
 	SOUNDFILE_ITEM,
-	"heavy_rain.mp3",
-	"paradise.mp3",
 ];

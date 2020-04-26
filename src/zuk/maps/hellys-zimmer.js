@@ -57,7 +57,6 @@ export const hellysZimmer = {
                 const mirco = game.filterPersons("_tag", "mirco")[0];
                 const player = game.getPlayer();
 
-                game.getAudioHandler().forceSong("heavy_rain.mp3");
                 player.setControl(false);
 
                 vincent.go(["down"], () =>
@@ -165,7 +164,6 @@ export const hellysZimmer = {
                                             "Passwort korrekt!",
                                             "Mirco: Du hast es geschafft, Helly!"
                                         ], () => {
-                                            game.getAudioHandler().forceSong("paradise.mp3");
                                             player.go(["down", "down", "down"], () => {
                                                 mirco.go(["left"], () => {
                                                     player.p.direction = "up";
