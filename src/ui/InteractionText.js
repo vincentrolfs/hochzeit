@@ -12,7 +12,7 @@ export function InteractionText() {
     }
 
     return (
-        <div className="interactionText">
+        <div className="interactionText" style={isTouch ? {touchAction: "none", pointerEvents: "none"} : {}}>
             {interactionText}
 
             <div className="controlHint">Leertaste{isTouch && ' / Antippen'}</div>
