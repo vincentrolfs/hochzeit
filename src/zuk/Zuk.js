@@ -47,7 +47,14 @@ function startZuk(canvasElement) {
     })
         .include("Sprites, Scenes, Input, 2D, Anim, TMX, UI, Audio")
         .setup(CANVAS_ID)
-        .controls();
+
+    Q.input.keyboardControls();
+
+    if ('ontouchstart' in window) {
+        window.ontouchstart = () => {
+            Q.input.trigger('action');
+        };
+    }
 
     Q.audio.enableWebAudioSound();
 

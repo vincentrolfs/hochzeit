@@ -5,6 +5,7 @@ import {useSelector} from "react-redux";
 
 export function InteractionText() {
     const interactionText = useSelector(state => state.ui.interactionText);
+    const isTouch = !!('ontouchstart' in window);
 
     if (!interactionText) {
         return null;
@@ -14,7 +15,7 @@ export function InteractionText() {
         <div className="interactionText">
             {interactionText}
 
-            <div className="controlHint">Leertaste</div>
+            <div className="controlHint">Leertaste{isTouch && ' / Antippen'}</div>
         </div>
     );
 }

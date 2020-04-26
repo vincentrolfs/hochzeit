@@ -24,6 +24,7 @@ export const moorrand = {
                     "Du kannst dich mit den Pfeiltasten bewegen.",
                     "(Außer du liest gerade einen Text.)",
                     "Benutze die Leertaste oder die Taste 'x' um mit Personen und manchen Objekten zu interagieren.",
+                    "Auf deinem Smartphone kannst du dafür einfach den Bildschirm antippen.",
                     "Mit der Schaltfläche oben rechts kannst du das Spiel speichern.",
                     "Viel Spaß!"
                 ], () => store.dispatch(flagIntroBeendet()));
