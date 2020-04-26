@@ -1,6 +1,5 @@
 import {store} from "../../redux/store";
-import {flagStartKaraffenRaetsel, setCenterText} from "../../redux/actions";
-import {PFLANZE_1, PFLANZE_3, PFLANZE_4} from "./pflanzen";
+import {setCenterText} from "../../redux/actions";
 
 export const nurtext = {
     mapName: "nurtext",
