@@ -10,7 +10,7 @@ concerns itself with game-type (pretty anything besides touchscreen input)
 */
 
 
-var quintusInput = function(Quintus) { 
+var quintusInput = function(Quintus) {
 "use strict";
 
 /**
@@ -248,7 +248,7 @@ Quintus.Input = function(Q) {
       touchY = Q.height * posY / Q.cssHeight;
 
 
-      return { x: touchX, y: touchY };
+      return { x: touchX/2, y: touchY/2 };
     },
 
     /**
@@ -424,11 +424,16 @@ Quintus.Input = function(Q) {
       });
 
       this.joypadStart = function(evt) {
+        console.log(1);
         if(joypad.joypadTouch === null) {
+
           var touch = evt.changedTouches[0],
               loc = Q.input.touchLocation(touch);
 
+          console.log(2, loc.x, joypad.zone);
+
           if(loc.x < joypad.zone) {
+            console.log(3);
             joypad.joypadTouch = touch.identifier;
             joypad.centerX = loc.x;
             joypad.centerY = loc.y;
@@ -720,7 +725,6 @@ Quintus.Input = function(Q) {
                            joypad.center);
         }
       }
-
     },
 
     /**

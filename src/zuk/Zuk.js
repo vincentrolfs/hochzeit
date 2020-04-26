@@ -46,12 +46,13 @@ function startZuk(canvasElement) {
         dataPath: 'maps/'
     })
         .include("Sprites, Scenes, Input, 2D, Anim, TMX, UI, Audio")
-        .setup(CANVAS_ID)
+        .setup(CANVAS_ID);
 
     Q.input.keyboardControls();
+    Q.input.joypadControls({ zone: Q.width });
 
     if ('ontouchstart' in window) {
-        window.ontouchstart = () => {
+        window.ontouchend = () => {
             Q.input.trigger('action');
         };
     }
