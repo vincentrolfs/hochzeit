@@ -18,7 +18,6 @@ export const hellysZimmer = {
     mapName: "hellysZimmer",
     fileName: "hellys-zimmer.tmx",
     music: "kecleon_shop.mp3",
-    additionalAssets: ["heavy_rain.mp3", "paradise.mp3"],
     loadingPoints: {
         default: [16, 8, "left", true],
     },
