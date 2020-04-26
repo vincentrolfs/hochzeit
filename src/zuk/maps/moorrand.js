@@ -21,7 +21,7 @@ export const moorrand = {
             organise: (game, ui) => {
                 ui.displayText([
                     "Das bist du -- Helena.",
-                    "Du kannst dich mit den Pfeiltasten bewegen.",
+                    "Du kannst dich mit den Pfeiltasten bewegen, oder auf dem Smartphone in dem du über den Touchscreen wischt.",
                     "(Außer du liest gerade einen Text.)",
                     "Benutze die Leertaste oder die Taste 'x' um mit Personen und manchen Objekten zu interagieren.",
                     "Auf deinem Smartphone kannst du dafür einfach den Bildschirm antippen.",
