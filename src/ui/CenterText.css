@@ -1,0 +1,13 @@
+.centerText {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translate(0, -50%);
+    font-size: 2em;
+    text-align: center;
+
+    white-space: pre-wrap;
+}

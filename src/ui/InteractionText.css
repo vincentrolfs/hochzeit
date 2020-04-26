@@ -1,0 +1,23 @@
+.interactionText {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.controlHint {
+    font-size: 0.5em;
+    font-style: italic;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}

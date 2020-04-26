@@ -1,0 +1,43 @@
+/* style.css */
+
+@font-face {
+    font-family: 'aller';
+}
+
+body {
+	background-color: black;
+	font-family: "aller", sans-serif;
+}
+
+#root {
+	width: 100%;
+}
+
+#menu {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: flex-start;
+
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	z-index: 1;
+}
+
+#menu div:last-child {
+	margin-left: auto;
+}
+
+canvas {
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+
+#save {
+	background: white;
+	color: black;
+}

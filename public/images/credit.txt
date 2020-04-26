@@ -1,0 +1,5 @@
+Image credits
+
+dp_tileset.png 	      http://www.deviantart.com/art/Pokemon-DPPtHGSS-Tileset-265902852
+interior.png			    http://thatssowitty.deviantart.com/art/Public-Interior-Tileset-281775677
+dp_persons.png			  http://fanart.pokefans.net/ressourcen/tilesets/personen.png

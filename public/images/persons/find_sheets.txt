@@ -1,0 +1,5 @@
+Cut out tiles wide
+take tile standing_down, use it to find width
+center of eyes is the left center of box
+take tile standing_up, use it to find height
+cut out shape is 24, add 6 on top, 2 on bottom
