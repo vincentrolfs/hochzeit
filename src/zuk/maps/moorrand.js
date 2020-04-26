@@ -63,7 +63,7 @@ export const moorrand = {
                             ]);
                         } else {
                             ui.displayText([
-                                "Rini: Super, vielen Dank für die Wasserkaraffe.",
+                                "Rini: Super, vielen Dank für das Wasserfass!",
                                 "Helly, ich mache mir jetzt echt Sorgen um Mirco.",
                                 "Rebecca hat überall geschaut und kann ihn nicht finden.",
                                 "Kannst du nochmal im Keller schauen?",
