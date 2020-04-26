@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hochzeit/static/css/main.91eb881f.chunk.css",
+    "main.js": "/hochzeit/static/js/main.eb6c3ea5.chunk.js",
+    "main.js.map": "/hochzeit/static/js/main.eb6c3ea5.chunk.js.map",
+    "runtime-main.js": "/hochzeit/static/js/runtime-main.308613bd.js",
+    "runtime-main.js.map": "/hochzeit/static/js/runtime-main.308613bd.js.map",
+    "static/js/2.26d195ff.chunk.js": "/hochzeit/static/js/2.26d195ff.chunk.js",
+    "static/js/2.26d195ff.chunk.js.map": "/hochzeit/static/js/2.26d195ff.chunk.js.map",
+    "index.html": "/hochzeit/index.html",
+    "precache-manifest.1bb314871fbb1f3cd2a5446b4d365837.js": "/hochzeit/precache-manifest.1bb314871fbb1f3cd2a5446b4d365837.js",
+    "service-worker.js": "/hochzeit/service-worker.js",
+    "static/css/main.91eb881f.chunk.css.map": "/hochzeit/static/css/main.91eb881f.chunk.css.map",
+    "static/js/2.26d195ff.chunk.js.LICENSE.txt": "/hochzeit/static/js/2.26d195ff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.308613bd.js",
+    "static/js/2.26d195ff.chunk.js",
+    "static/css/main.91eb881f.chunk.css",
+    "static/js/main.eb6c3ea5.chunk.js"
+  ]
+}
