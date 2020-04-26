@@ -54,8 +54,8 @@ export const DEFAULT_MAP = "nurtext";
 export const MAP_SWITCH_TIMEOUT = 0;
 export const DEFAULT_TEXT_SPEED = 1500;
 
-export const MUSIC_ENABLED_DEFAULT = true;
-export const SOUND_ENABLED_DEFAULT = true;
+export const MUSIC_ENABLED_DEFAULT = false;
+export const SOUND_ENABLED_DEFAULT = false;
 
 export const TEXT_FAMILY = "aller";
 export const TEXT_SIZE = 26;
