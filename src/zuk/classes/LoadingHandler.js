@@ -12,6 +12,8 @@ export const LoadingHandler = Q => Q.Class.extend("LoadingHandler", {
 
 		if (typeof text !== "string" || !text.length) return;
 
+		if (!total) total = 1;
+
 		var textWithPercentage = text.replace(PERCENTAGE_PLACEHOLDER, Math.round((loaded/total)*100));
 
 		console.log("Loading text: ", textWithPercentage);
@@ -40,6 +42,8 @@ export const LoadingHandler = Q => Q.Class.extend("LoadingHandler", {
 
 			var loadingHandler = this;
 			const withText = !!text;
+
+			loadingHandler.displayLoadingText(text, 0);
 
 			Q.load(loadArray, function() {
 				if (withText) { store.dispatch(setCenterText("")); }
