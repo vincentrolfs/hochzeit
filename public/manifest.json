@@ -3,8 +3,10 @@
   "name": "Helena Blache und die Suche nach dem verlorenen Mirco",
   "icons": [
     {
-      "src": "images/favicon.png",
-      "sizes": "64x64 32x32 24x24 16x16"
+      "src": "images/favicon_big.png",
+      "sizes": "144x144",
+      "purpose": "any",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
