@@ -55,10 +55,10 @@ export function KaraffenRaetsel() {
             TransitionComponent={Transition}
             keepMounted
         >
-            <DialogTitle>Karaffen auffüllen</DialogTitle>
+            <DialogTitle>Fässer auffüllen</DialogTitle>
             <DialogContent>
                 <DialogContentText>
-                    Wir brauchen genau {ziel} Liter in einer Karaffe.
+                    Wir brauchen genau {ziel} Liter in einem Fass.
                 </DialogContentText>
 
                 {karaffenGroessen.map((groesse, index) =>

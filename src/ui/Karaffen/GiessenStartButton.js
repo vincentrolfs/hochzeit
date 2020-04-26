@@ -8,7 +8,7 @@ export function GiessenStartButton({className}) {
         <Button variant="contained" color="primary" disableElevation className={className}
                 onClick={starteGiessen} disabled={inhalt === 0}
         >
-            In eine andere Karaffe gießen
+            In ein anderes Fass gießen
         </Button>
     );
 }

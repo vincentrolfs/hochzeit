@@ -13,7 +13,7 @@ export function KaraffenInfo() {
 
     return (
         <>
-            <h5>{groesse}-Liter Karaffe</h5>
+            <h5>{groesse}-Liter Fass</h5>
             <DialogContentText>
                 Enthält <strong>{inhalt} Liter</strong>
             </DialogContentText>

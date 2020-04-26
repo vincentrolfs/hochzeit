@@ -40,7 +40,7 @@ export const kueche = {
                 ui.displayText("Rebecca: Wow Helly, du hast es geschafft!", () => player.go("down", () =>
                     ui.displayText([
                             "Das war eine große Hilfe.",
-                            "Am besten bringst du die Karaffe direkt zum Buffet.",
+                            "Am besten bringst du das Fass direkt zum Buffet.",
                         ], () => game.itemFound(ITEM_WASSERKARAFFE, () => player.setControl(true))
                     )
                 ))
@@ -64,19 +64,19 @@ export const kueche = {
                         if (!flags.startedKaraffenRaetsel1) {
                             ui.displayText([
                                 "Rebecca: Helly, kannst du mir mit den Getränken für das Buffet helfen?",
-                                "Wir brauchen genau 11 Liter Wasser in einer Karaffe.",
+                                "Wir brauchen genau 11 Liter Wasser in einem Fass.",
                                 "Etwas mehr, und das Wasser würde rausschwappen!",
                                 "Etwas weniger, und alle wären durstig!",
-                                "Das Problem ist, dass wir nur eine 15-Liter und eine 8-Liter Karaffe haben.",
-                                "Kannst du bitte genau 11 Liter Wasser in die große Karaffe füllen?",
-                                "Du findest die Karaffen drüben beim Wasserhahn.",
+                                "Das Problem ist, dass wir nur ein 15-Liter und ein 8-Liter Fass haben.",
+                                "Kannst du bitte genau 11 Liter Wasser in das große Fass füllen?",
+                                "Du findest die Fässer drüben beim Wasserhahn.",
                             ], () => store.dispatch(flagStartKaraffenRaetsel()));
 
                         } else if (!flags.finishedKaraffenRaetsel1) {
                             ui.displayText([
                                 "Kannst du mir mit den Getränken für helfen?",
-                                "Wir brauchen genau 11 Liter Wasser in einer Karaffe.",
-                                "Du findest die Karaffen drüben beim Wasserhahn.",
+                                "Wir brauchen genau 11 Liter Wasser in einem Fass.",
+                                "Du findest die Fässer drüben beim Wasserhahn.",
                             ]);
                         } else {
                             ui.displayText([

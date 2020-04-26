@@ -33,8 +33,8 @@ export const hallway = {
                     _tag: "rebecca",
                     interact: (ui) => {
                         ui.displayText([
-                            "Gehe doch bitte zur Spüle und fülle eine Karaffe mit genau 11 Litern!",
-                            "Danach kannst du die Karaffe direkt zu Rini bringen.",
+                            "Gehe doch bitte zur Spüle und fülle ein Fass mit genau 11 Litern!",
+                            "Danach kannst du das Fass direkt zu Rini bringen.",
                             "Danke!"
                         ]);
                     }
@@ -58,15 +58,15 @@ export const hallway = {
                         "Tut mir Leid dass ich so Stress mache.",
                         "Ich bin ein bisschen unter Zeitdruck, weil Mirco mir eigentlich helfen sollte...",
                         "Keine Ahnung wo er ist.",
-                        "Auf jeden Fall wollte ich fragen, wo die Wasserkaraffe ist?",
+                        "Auf jeden Fall wollte ich fragen, wo die Fass mit dem Wasser ist?",
                         "...",
                         "Du hast das Wasser benutzt um einen Frosch zu retten?",
                         "Oh...",
                         "Kannst du dann nochmal Wasser holen?",
-                        "Leider ist die kleine Karaffe kaputt gegangen...",
-                        "Aber ich habe noch zwei gigantische Karaffen gefunden!",
-                        "Gehe doch bitte zur Spüle und fülle eine Karaffe mit genau 11 Litern!",
-                        "Danach kannst du die Karaffe direkt zu Rini bringen.",
+                        "Leider ist das kleine Fass kaputt gegangen...",
+                        "Aber ich habe noch zwei gigantische Fässer gefunden!",
+                        "Gehe doch bitte zur Spüle und fülle ein Fass mit genau 11 Litern!",
+                        "Danach kannst du das Fass direkt zu Rini bringen.",
                         "Danke!"
                     ], () => {
                         store.dispatch(flagStartKaraffenRaetsel());
