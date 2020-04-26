@@ -511,21 +511,13 @@ Quintus.Input = function(Q) {
             for(var i=0,len=evt.changedTouches.length;i<len;i++) {
             var touch = evt.changedTouches[i];
               if(touch.identifier === joypad.joypadTouch) {
-                let hasTriggered = false;
-
                 for(var k=0;k<joypad.triggers.length;k++) {
                   var actionName = joypad.inputs[k];
                   Q.inputs[actionName] = false;
                     if(joypad.triggers[k]) {
                         Q.input.trigger(actionName + "Up");
-                      hasTriggered = true;
                     }
                 }
-
-                if (!hasTriggered){
-                  Q.input.trigger('action');
-                }
-
                 joypad.joypadTouch = null;
                 break;
               }

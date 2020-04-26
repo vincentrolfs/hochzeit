@@ -51,6 +51,8 @@ function startZuk(canvasElement) {
     Q.input.keyboardControls();
     Q.input.joypadControls({ zone: Q.width });
 
+    canvasElement.ontouchcancel = canvasElement.ontouchend = () => Q.input.trigger('action');
+
     Q.audio.enableWebAudioSound();
 
     Q.input.keyboardControls({
