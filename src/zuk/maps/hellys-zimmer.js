@@ -18,6 +18,7 @@ export const hellysZimmer = {
     mapName: "hellysZimmer",
     fileName: "hellys-zimmer.tmx",
     music: "kecleon_shop.mp3",
+    additionalAssets: ["heavy_rain.mp3", "paradise.mp3"],
     loadingPoints: {
         default: [16, 8, "left", true],
     },
@@ -57,6 +58,7 @@ export const hellysZimmer = {
                 const mirco = game.filterPersons("_tag", "mirco")[0];
                 const player = game.getPlayer();
 
+                game.getAudioHandler().forceSong("heavy_rain.mp3");
                 player.setControl(false);
 
                 vincent.go(["down"], () =>
@@ -164,6 +166,7 @@ export const hellysZimmer = {
                                             "Passwort korrekt!",
                                             "Mirco: Du hast es geschafft, Helly!"
                                         ], () => {
+                                            game.getAudioHandler().forceSong("paradise.mp3");
                                             player.go(["down", "down", "down"], () => {
                                                 mirco.go(["left"], () => {
                                                     player.p.direction = "up";
