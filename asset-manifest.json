@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hochzeit/static/css/main.777b162c.chunk.css",
-    "main.js": "/hochzeit/static/js/main.d41543e7.chunk.js",
-    "main.js.map": "/hochzeit/static/js/main.d41543e7.chunk.js.map",
+    "main.js": "/hochzeit/static/js/main.a222271d.chunk.js",
+    "main.js.map": "/hochzeit/static/js/main.a222271d.chunk.js.map",
     "runtime-main.js": "/hochzeit/static/js/runtime-main.308613bd.js",
     "runtime-main.js.map": "/hochzeit/static/js/runtime-main.308613bd.js.map",
     "static/js/2.b26e5e6e.chunk.js": "/hochzeit/static/js/2.b26e5e6e.chunk.js",
     "static/js/2.b26e5e6e.chunk.js.map": "/hochzeit/static/js/2.b26e5e6e.chunk.js.map",
     "index.html": "/hochzeit/index.html",
-    "precache-manifest.1461031aea87880615d7557ccc01f9b7.js": "/hochzeit/precache-manifest.1461031aea87880615d7557ccc01f9b7.js",
+    "precache-manifest.07543669bf2516e1cf81a504dc795828.js": "/hochzeit/precache-manifest.07543669bf2516e1cf81a504dc795828.js",
     "service-worker.js": "/hochzeit/service-worker.js",
     "static/css/main.777b162c.chunk.css.map": "/hochzeit/static/css/main.777b162c.chunk.css.map",
     "static/js/2.b26e5e6e.chunk.js.LICENSE.txt": "/hochzeit/static/js/2.b26e5e6e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.308613bd.js",
     "static/js/2.b26e5e6e.chunk.js",
     "static/css/main.777b162c.chunk.css",
-    "static/js/main.d41543e7.chunk.js"
+    "static/js/main.a222271d.chunk.js"
   ]
 }
