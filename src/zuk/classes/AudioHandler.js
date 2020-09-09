@@ -2,7 +2,8 @@ import {MUSIC_ENABLED_DEFAULT, SOUND_ENABLED_DEFAULT} from "../utils/constants";
 
 export const AudioHandler = Q => Q.Class.extend("AudioHandler", {
 
-    init: function () {
+    init: function (loadingHandler) {
+        this.loadingHandler = loadingHandler;
         this.musicEnabled = MUSIC_ENABLED_DEFAULT;
         this.soundEnabled = SOUND_ENABLED_DEFAULT;
 
@@ -20,8 +21,10 @@ export const AudioHandler = Q => Q.Class.extend("AudioHandler", {
 
     forceSong: function (newSong) {
         this.songIsForced = false;
-        this.setSong(newSong);
-        this.songIsForced = true;
+        this.loadingHandler.load([newSong], () => {
+            this.setSong(newSong);
+            this.songIsForced = true;
+        });
     },
 
     setSong: function (newSong) {

@@ -29,8 +29,8 @@ export const Game = Q => Q.Class.extend("Game", {
             // Provides better Math.random
             Math.seedrandom();
 
-            this.audioHandler = new Q.AudioHandler();
             this.loadingHandler = new Q.LoadingHandler();
+            this.audioHandler = new Q.AudioHandler(this.loadingHandler);
             this.UIHandler = new Q.UIHandler(this, this.audioHandler, this.loadingHandler);
 
             this.player = null; // Variable holds instance of Person class that has player functions
